@@ -12,7 +12,6 @@ enterybutton.addEventListener('click', function() {
     const userInput = entryinput.value;
     //1. Show the Alert box with the name, a colon, and the inout text
     alert("Debarlaben: " + userInput); 
-    
     //2. Change the text in the h2 below the buttonto match the input text
     textoutput.textContent = userInput;
 });
